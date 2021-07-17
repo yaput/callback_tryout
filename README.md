@@ -16,9 +16,9 @@ Create a book store app that can handle realtime callback from 3rd party payment
 
 **FE & Mobile**
 
-1. Create page to show list of available books with the image from the above API.
-2. Create a page to show book details that include the buy now button that will request to API number (2) and (3) from Backe End section.
-3. For buy now button, handle this asynchronously, because it is expected that the response from buy now/payment API will be slow due to 3rd part API response. Let the users know that it's loading while you handle it asynchronously. 
+1. Create page to show list of available books with the image, you can create a dummy json(Image title, image url).
+2. Create a page to show selected book title from above, you can add more detail to dummy json(author, small description).
+3. Add a pay button inside detail page, and after user click it, then show a pop up model to to input any pin number 123456 for success notification, and 654321 for failed notification pop up. 
 4. Create unit testing for each method that you have created.
 
 **Expectations**
